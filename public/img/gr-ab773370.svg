@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>GR</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12"></rect>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#000000" stop-opacity="0.3" offset="2.42052023%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.7" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="16" height="12" rx="1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GR">
+            <g id="flag">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="mask"></g>
+                <g id="contents" mask="url(#mask-2)">
+                    <g transform="translate(-1, 0)">
+                        <rect id="bottom" fill="#F7FCFF" x="1" y="0" width="16" height="12"></rect>
+                        <rect id="lines" fill="#4564F9" x="1.01357922" y="2.75" width="16" height="1.5"></rect>
+                        <rect id="lines" fill="#4564F9" x="1" y="0" width="16" height="1.5"></rect>
+                        <rect id="lines" fill="#4564F9" x="0.970564347" y="5.5" width="16" height="1.5"></rect>
+                        <rect id="lines" fill="#4564F9" x="1.05583211" y="8.19999695" width="16" height="1.5"></rect>
+                        <rect id="lines" fill="#4564F9" x="1.05073627" y="10.75" width="16" height="1.5"></rect>
+                        <rect id="square" fill="#4564F9" x="1" y="0" width="8" height="7"></rect>
+                        <polygon id="cross" fill="#F7FCFF" points="4.23553706 0 5.81769178 0 5.81769178 2.75 9 2.75 9 4.64319451 5.81769178 4.64319451 5.81769178 7.5 4.23553706 7.5 4.23553706 4.64319451 1 4.64319451 1 2.75 4.23553706 2.75"></polygon>
+                    </g>
+                </g>
+            </g>
+            <g id="overlay">
+                <use fill="url(#linearGradient-3)" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-4"></use>
+                <rect stroke-opacity="0.1" stroke="#000000" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="15" height="11" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
