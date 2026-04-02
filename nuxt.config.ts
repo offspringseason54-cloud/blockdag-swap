@@ -6,8 +6,27 @@ export default defineNuxtConfig({
         { 
           rel: 'icon', 
           type: 'image/x-icon', 
-          href: '/img/favicon.ico' 
+          href: '/images/icon14c83.png' 
         }
+      ],
+      script: [
+        { src: '/js/123675a752255df6.js', defer: true },
+        { src: '/js/16e992a9d04317e6.js', defer: true },
+        { src: '/js/17a742a31679c9b7.js', defer: true },
+        { src: '/js/2ffc983c444794f6.js', defer: true },
+        { src: '/js/54c269b82b235e1e.js', defer: true },
+        { src: '/js/6d02d54ea0d1fc2e.js', defer: true },
+        { src: '/js/7d0c2e7fc1049e44.js', defer: true },
+        { src: '/js/82abf2d65f5428ae.js', defer: true },
+        { src: '/js/a6dad97d9634a72d.js', defer: true },
+        { src: '/js/aee6c7720838f8a2.js', defer: true },
+        { src: '/js/cd423e8f64b9cfe8.js', defer: true },
+        { src: '/js/d2be314c3ece3fbe.js', defer: true },
+        { src: '/js/e7e1ee1f61eff323.js', defer: true },
+        { src: '/js/f1b4d49aa9e249c5.js', defer: true },
+        { src: '/js/fb4571473d0c5e00.js', defer: true },
+        { src: '/js/ff1a16fafef87110.js', defer: true },
+        { src: '/js/turbopack-67067874c607c9f1.js', defer: true },
       ]
     }
   },
@@ -16,16 +35,8 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   pages: true,
   css: [
-    "/assets/css/main.css",
-    "/assets/css/reset.css",
-    "/assets/css/form.css",
-    "/assets/css/app.css",
-    // "/assets/css/main2.css",
-    // "/assets/css/2.6%20animate.css.css",
-    "/assets/css/walletpage.css",
-    // "/assets/css/bootstrap.min(1).css",
-    "/assets/css/app-755185d7.css",
-    "/assets/css/app-939de237.css",
-    "/assets/css/main-dde0d8dc.css"
+    "~/assets/css/1adb7b6e3eae0064.css",
+    "~/assets/css/dafefd1197ee36b2.css",
+    "~/assets/css/febab3fae21381e6.css",
   ],
 });
