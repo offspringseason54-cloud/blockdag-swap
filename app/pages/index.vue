@@ -63,9 +63,7 @@
               </button>
             </li>
             <li class="relative">
-              <a
-                class="text-s-16 text-gray-600 hover:text-gray-900"
-                href="/"
+              <a class="text-s-16 text-gray-600 hover:text-gray-900" href="/"
                 >FAQs</a
               >
             </li>
@@ -84,29 +82,10 @@
               data-nimg="1"
               style="color: transparent"
               src="/icons/buy-icon.png"
-            /><span>BUY</span></a
+            /><span>Connect Wallet</span></a
           >
         </div>
-        <button
-          class="size-s-40 flex items-center justify-center rounded-lg lg:hidden"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            class=""
-          >
-            <path
-              d="M3 12H21M3 6H21M3 18H21"
-              stroke="#1E1E1E"
-              stroke-width="2.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>
-          </svg>
-        </button>
+        
       </div>
     </header>
     <div class="swiper" id="howtoSwiper">
@@ -211,6 +190,15 @@
                       style="color: transparent"
                       src="/images/home/webot-white.png"
                     />
+                  </div>
+                  <div
+                    class="flex w-full items-center justify-center lg:justify-start mt-10"
+                  >
+                    <a
+                      class="inline-flex items-center justify-center cursor-pointer rounded-4xl gap-s-12 transition-all text-s-15 font-bold bg-primary-blue text-white px-s-24 py-s-14 mb-s-40 lg:mb-s-120 text-s-18 leading-s-22 rounded-full bg-[#0094FF] px-8 py-3 font-medium"
+                      href="/app"
+                      >Connect Wallet</a
+                    >
                   </div>
                 </div>
                 <div class="flex w-full flex-1 justify-center"></div>
