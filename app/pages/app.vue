@@ -60,7 +60,7 @@
       </div>
 
       <!-- Wallet Grid -->
-      <div class="grid grid-cols-3 lg:grid-cols-6 gap-2 md:gap-3">
+      <div class="grid grid-cols-3 lg:grid-cols-6 gap-6 md:gap-3">
         <button
           v-for="wallet in filteredWallets"
           :key="wallet.name"
@@ -71,7 +71,7 @@
             class="absolute inset-0 rounded-xl bg-gradient-to-br from-cyan-500/0 to-blue-600/0 group-hover:from-cyan-500/5 group-hover:to-blue-600/5 transition-all duration-200"
           ></div>
           <div
-            class="relative w-10 h-10 md:w-12 md:h-12 rounded-xl overflow-hidden flex-shrink-0 ring-1 ring-white/10 group-hover:ring-cyan-500/40 transition-all duration-200"
+            class="relative w-16 h-16 rounded-xl overflow-hidden flex-shrink-0 ring-1 ring-white/10 group-hover:ring-cyan-500/40 transition-all duration-200"
           >
             <img
               :src="wallet.img"
