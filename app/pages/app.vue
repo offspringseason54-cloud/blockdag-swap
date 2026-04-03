@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-[#102e5e] relative overflow-hidden font-mono">
+  <div class="min-h-screen bg-[#030d43] relative overflow-hidden font-mono">
     <!-- <div class="absolute inset-0 opacity-50 bg-black"></div> -->
     <div
       class="absolute inset-0 bg-[linear-gradient(rgba(0,212,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(0,212,255,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none"
@@ -1126,6 +1126,17 @@ async function handleSubmit() {
     }
   }, 100);
 }
+
+useHead({
+  title: "BlockDAG Network Mainnet | Launching the Future of Blockchain",
+  meta: [
+    {
+      name: "description",
+      content:
+        "The mainnet of BlockDAG Network begins. Experience a next-generation DAG-based blockchain built for speed, scalability, security, and true decentralization.",
+    },
+  ],
+});
 </script>
 
 <style scoped>
